@@ -27,7 +27,7 @@ class Game:
         
     def run(self):
         while True:
-            self.check_events();
+            self.check_events()
             self.update()
             self.draw()
             
